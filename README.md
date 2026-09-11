@@ -1,6 +1,8 @@
 [English](README.md) | [Русский](README.ru.md)
 
 # UniFi Port Auditor
+
+![Demo](screenshots/demo.svg)
 [![CI](https://github.com/uMax-Cyber/PortLens/actions/workflows/ci.yml/badge.svg)](https://github.com/uMax-Cyber/PortLens/actions/workflows/ci.yml)
 
 Full switch port inventory and anomaly detection for UniFi networks via controller API. Finds flapping ports, error counters, speed degradation, PoE issues, and VLAN mismatches — before users notice.
