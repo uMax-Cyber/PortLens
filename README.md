@@ -1,3 +1,5 @@
+[English](README.md) | [Русский](README.ru.md)
+
 # UniFi Port Auditor
 [![CI](https://github.com/uMax-Cyber/PortLens/actions/workflows/ci.yml/badge.svg)](https://github.com/uMax-Cyber/PortLens/actions/workflows/ci.yml)
 
