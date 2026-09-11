@@ -48,3 +48,15 @@ Uses UniFi legacy REST API (`/proxy/network/api/s/default/stat/device`) which re
 
 ## License
 MIT
+
+## 📬 Contact
+
+Questions? Reach out: **[allumaxmail@gmail.com](mailto:allumaxmail@gmail.com)**
+
+---
+
+<div align="center">
+
+**🇬🇧 [English](README.md) · 🇷🇺 [Русский](README.ru.md) · 🇺🇿 [Oʻzbekcha](README.uz.md)**
+
+</div>
