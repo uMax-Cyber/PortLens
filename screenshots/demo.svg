@@ -1,20 +1,21 @@
 <svg width="800" height="380" xmlns="http://www.w3.org/2000/svg">
 <rect width="800" height="380" fill="#1e1e2e" rx="8"/>
-<rect width="800" height="30" fill="#181825" rx="8"><animate attributeName="opacity" values="1;0.9;1" dur="4s" repeatCount="indefinite"/></rect>
+<rect width="800" height="30" fill="#181825" rx="8"><animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/></rect>
 <circle cx="20" cy="15" r="6" fill="#f38ba8"/><circle cx="40" cy="15" r="6" fill="#f9e2af"/><circle cx="60" cy="15" r="6" fill="#a6e3a1"/>
-<text x="400" y="20" text-anchor="middle" fill="#cdd6f4" font-family="monospace" font-size="12">port_audit.py --errors-only</text>
-<text x="15" y="55" fill="#a6e3a1" font-family="monospace" font-size="13">$ python3 scripts/port_audit.py --errors-only</text>
-<text x="15" y="85" fill="#89b4fa" font-family="monospace" font-size="13">=== Core-Switch-1 (US48PRO) ===</text>
-<text x="15" y="110" fill="#f38ba8" font-family="monospace" font-size="13">  p8  UP  1000 errs=12 drop=691661 flap=6  ⚠</text>
-<text x="15" y="135" fill="#f38ba8" font-family="monospace" font-size="13">  p20 UP  100  errs=35 drop=0     flap=118 ⚠</text>
-<text x="15" y="160" fill="#f9e2af" font-family="monospace" font-size="13">  p7  UP  10   errs=0  drop=0     flap=110 ⚠ speed!</text>
-<text x="15" y="190" fill="#89b4fa" font-family="monospace" font-size="13">=== D-Block-24 (US24P250) ===</text>
-<text x="15" y="215" fill="#f38ba8" font-family="monospace" font-size="13">  p2  UP  1000 errs=0  drop=0     flap=154 ⚠</text>
-<text x="15" y="250" fill="#a6e3a1" font-family="monospace" font-size="13">Found: 5 problem ports across 3 switches</text>
-<text x="15" y="280" fill="#f9e2af" font-family="monospace" font-size="13">→ p7 running at 10Mbps — check cable</text>
-<text x="15" y="305" fill="#f9e2af" font-family="monospace" font-size="13">→ p2/p20 flapping — reseat or replace</text>
-<text x="15" y="330" fill="#f9e2af" font-family="monospace" font-size="13">→ p8 drops 691k — investigate upstream</text>
-<rect x="15" y="430" width="10" height="18" fill="#a6e3a1">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+<text x="400" y="20" text-anchor="middle" fill="#cdd6f4" font-family="monospace" font-size="12" opacity="0">port_audit.py --errors-only<animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="55" fill="#a6e3a1" font-family="monospace" font-size="13" opacity="0">$ python3 scripts/port_audit.py --errors-only<animate attributeName="opacity" values="0;1" begin="0.3s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="85" fill="#89b4fa" font-family="monospace" font-size="13" opacity="0">=== Core-Switch-1 (US48PRO) ===<animate attributeName="opacity" values="0;1" begin="0.8s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="110" fill="#f38ba8" font-family="monospace" font-size="13" opacity="0">  p8  UP  1000 errs=12 drop=691661 flap=6  ⚠<animate attributeName="opacity" values="0;1" begin="1.3s" dur="0.4s" fill="freeze"/><animate attributeName="opacity" values="1;0.6;1" begin="1.7s" dur="1.5s" repeatCount="indefinite"/></text>
+<text x="15" y="135" fill="#f38ba8" font-family="monospace" font-size="13" opacity="0">  p20 UP  100  errs=35 drop=0     flap=118 ⚠<animate attributeName="opacity" values="0;1" begin="1.8s" dur="0.4s" fill="freeze"/><animate attributeName="opacity" values="1;0.6;1" begin="2.2s" dur="1.5s" repeatCount="indefinite"/></text>
+<text x="15" y="160" fill="#f9e2af" font-family="monospace" font-size="13" opacity="0">  p7  UP  10   errs=0  drop=0     flap=110 ⚠ speed!<animate attributeName="opacity" values="0;1" begin="2.3s" dur="0.4s" fill="freeze"/><animate attributeName="opacity" values="1;0.6;1" begin="2.7s" dur="1.5s" repeatCount="indefinite"/></text>
+<text x="15" y="190" fill="#89b4fa" font-family="monospace" font-size="13" opacity="0">=== D-Block-24 (US24P250) ===<animate attributeName="opacity" values="0;1" begin="2.8s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="215" fill="#f38ba8" font-family="monospace" font-size="13" opacity="0">  p2  UP  1000 errs=0  drop=0     flap=154 ⚠<animate attributeName="opacity" values="0;1" begin="3.3s" dur="0.4s" fill="freeze"/><animate attributeName="opacity" values="1;0.6;1" begin="3.7s" dur="1.5s" repeatCount="indefinite"/></text>
+<text x="15" y="250" fill="#a6e3a1" font-family="monospace" font-size="13" opacity="0">Found: 5 problem ports across 3 switches<animate attributeName="opacity" values="0;1" begin="3.8s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="280" fill="#f9e2af" font-family="monospace" font-size="13" opacity="0">→ p7 running at 10Mbps — check cable<animate attributeName="opacity" values="0;1" begin="4.3s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="305" fill="#f9e2af" font-family="monospace" font-size="13" opacity="0">→ p2/p20 flapping — reseat or replace<animate attributeName="opacity" values="0;1" begin="4.8s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="330" fill="#f9e2af" font-family="monospace" font-size="13" opacity="0">→ p8 drops 691k — investigate upstream<animate attributeName="opacity" values="0;1" begin="5.3s" dur="0.4s" fill="freeze"/></text>
+<rect x="315" y="317" width="10" height="16" fill="#a6e3a1" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="5.7s" dur="0.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" begin="5.9s" dur="1s" repeatCount="indefinite"/>
   </rect>
 </svg>
